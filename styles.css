@@ -1,4 +1,10 @@
 /*  your css code here. If applicable */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 body{
 	height: 100vh;
 	justify-content: center;
@@ -42,14 +48,14 @@ body{
   border-color: #4070f4;
   color: #4070f4;
 }
-.progress-bar{
+.progress .progress-bar{
 	position: absolute;
   height: 4px;
   width: 100%;
   background: #e0e0e0;
   z-index: -1;
 }
-.indicator{
+ .indicator{
 	  position: absolute;
   height: 100%;
   width: 0%;
